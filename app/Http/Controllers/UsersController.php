@@ -306,7 +306,7 @@ class UsersController extends Controller
         $user_roles = $user->rolesTeams;
         $roles = [];
         if($user->guru_id){
-            $roles = Role::select('id as value', 'display_name as text')->whereIn('name', ['waka', 'kaprog', 'internal'])->orderBy('id')->get();
+            $roles = Role::select('id as value', 'display_name as text')->whereIn('name', ['waka', 'kaprog', 'internal', 'pembina_ekskul', 'guru-p5'])->orderBy('id')->get();
         }
         /*
         $sorted = $collection->sortBy(function ($product, $key) {
