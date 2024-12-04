@@ -1,4 +1,7 @@
-<p align="center"><img src="http://app.erapor-smk.net/logo.png" width="600"></p>
+<p align="center"><img src="https://app.erapor-smk.net/logo.png" width="600"></p>
+
+## Requirement (Optional)
+Nodejs v16 (untuk build vue dan custom sendiri)
 
 ## Server Requirements
 PHP >= 8.1.0
